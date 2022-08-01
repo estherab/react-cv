@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Merienda+One&display=swap');
+
+:root {
+    --text-main: #fff;
+    --titles: #e8ddb5;
+}
+
+.about {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.main {
+    width: 80%;
+    margin-top: 7%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+img {
+    height: 30rem;
+    margin-right: 5%;
+}
+
+h1 {
+    color: var(--titles);
+    font-family: 'Merienda One';
+    font-size: 4.5rem;
+    margin-bottom: -3%;
+}
+
+span {
+    margin-top: 2%;
+    font-size: 2.5rem;
+    display: block;
+    font-family: monospace;
+    white-space: nowrap;
+    border-right: 4px solid;
+    width: 30ch;
+
+    animation: typing 2.5s steps(30),
+    blink .5s infinite step-end alternate;
+    overflow: hidden;
+}
+
+@keyframes typing {
+    from {width: 0}
+}
+
+@keyframes blink {
+    50% {border-color: transparent}
+}
+
+button {
+    color: var(--titles);
+    background-color: transparent;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    margin-top: 5%;
+    padding: 0.5rem;
+    border: solid 3px var(--titles);
+    border-radius: 8%;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #b7b7b7;
+}
+
+h4 {
+    width: 70%;
+    margin-top: -2%;
+    font-size: 1.5rem;
+    font-weight: 100;
+    text-align: center;
+}
+
+.location {
+    margin-top: -1%;
+    display: flex;
+    align-items: center;
+}
+
+.location-icon {
+    width: 30px;
+    height: 30px;
+}
+
+a {
+    margin-top: 1%;
+    color: var(--text-main);
+    text-decoration: none;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+
+.icons {
+    margin-top: 1%;
+    display: flex;
+}
+
+.linkedin-icon, .github-icon {
+    width: 50px;
+    height: 50px;
+}
+
+.linkedin-link {
+    margin-right: 20%;
+}
+
+p {
+    font-size: 1.5rem;
+}

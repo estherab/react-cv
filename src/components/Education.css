@@ -1,0 +1,56 @@
+:root {
+    --cards: rgba(255, 255, 255, 0.6);
+    --lines: #006E51;
+    --text-description: #000;
+}
+
+.education, .courses, .projects {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 5%;
+}
+
+.projects-container {
+    width: 75%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+}
+
+.project {
+    display: flex;
+    flex-direction: column;
+    background-color: var(--cards);
+    width: 30%;
+    height: 10rem;
+    border-radius: 5%;
+    padding: 1%;
+}
+
+h2 {
+    margin: 0 0 10px 0;
+    font-size: 1.3rem;
+    font-weight: 900;
+    color: green;
+}
+
+.project-description {
+    color: var(--text-description);
+    margin-top: -1%;
+    font-size: 0.9rem;
+    height: 95%;
+}
+
+.links {
+    display: flex;
+    justify-content: center;
+    gap: 60px;
+}
+
+.link-project {
+    color: var(--text-description);
+    cursor: pointer;
+    font-weight: 900;
+}
